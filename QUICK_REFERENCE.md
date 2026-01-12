@@ -42,6 +42,15 @@
 | **C4 Architecture Specialist** | System architecture diagrams | `/plugin install c4-architecture` |
 | **OpenAPI Generator** | API specs & Mermaid diagrams | `/plugin install documentation-generation` |
 
+### Marketing & SEO Agents
+
+| Agent | What It Does | Install |
+|-------|-------------|---------|
+| **SEO Content Writer** | SEO content planning & keyword optimization | `/plugin install seo-content-creation` |
+| **Technical SEO Specialist** | Meta tags, schema markup, technical SEO | `/plugin install seo-technical-optimization` |
+| **SEO Analyst** | Content analysis & authority building | `/plugin install seo-analysis-monitoring` |
+| **Content Strategist** | Marketing strategy & web research | `/plugin install content-marketing` |
+
 ---
 
 ## 💡 Key Skills Available
@@ -109,6 +118,16 @@
 - **SLO Definition** - Service level objectives
 - **Error Tracing** - Root cause analysis
 
+### Marketing & SEO Skills
+- **SEO Writing Patterns** - Content optimization for search engines
+- **Keyword Research** - Finding high-value keywords
+- **Technical SEO** - Meta tags, schema markup, sitemaps
+- **Content Strategy** - Content planning & marketing
+- **Schema Markup** - Structured data for search engines
+- **Authority Building** - Backlinks & domain authority
+- **Web Research** - Competitive analysis & trends
+- **Marketing Analytics** - Traffic & conversion tracking
+
 ---
 
 ## 🎯 Use Case → Agent Mapping
@@ -162,6 +181,26 @@
 1. Install: `/plugin install framework-migration`
 2. Use: **Migration Planner** agent
 3. Skills: Migration Patterns, Compatibility Testing
+
+### "I need to optimize SEO"
+1. Install: `/plugin install seo-content-creation`
+2. Use: **SEO Content Writer** agent
+3. Skills: SEO Writing, Keyword Research
+
+### "I need technical SEO help"
+1. Install: `/plugin install seo-technical-optimization`
+2. Use: **Technical SEO Specialist** agent
+3. Skills: Meta Tags, Schema Markup, Technical SEO
+
+### "I need content marketing strategy"
+1. Install: `/plugin install content-marketing`
+2. Use: **Content Strategist** agent
+3. Skills: Content Strategy, Web Research
+
+### "I need business analytics"
+1. Install: `/plugin install business-analytics`
+2. Use: **Business Analyst** agent
+3. Skills: KPI Tracking, Financial Reporting
 
 ---
 
@@ -275,14 +314,43 @@
 /plugin install payment-processing
 ```
 
-### Marketing & Business
-- **SEO Content Writer** - SEO optimization
-- **Business Analyst** - KPI tracking
-- **Customer Support Automator** - Support automation
+### Marketing & SEO
+- **SEO Content Writer** - Content planning & keyword optimization
+- **Technical SEO Specialist** - Meta tags, schema markup, keywords
+- **SEO Analyst** - Content analysis & authority building
+- **Content Strategist** - Marketing strategy & web research
+
+**Skills:**
+- SEO Writing Patterns
+- Keyword Research
+- Technical SEO Optimization
+- Content Strategy
+- Schema Markup
+- Authority Building
 
 ```bash
 /plugin install seo-content-creation
+/plugin install seo-technical-optimization
+/plugin install seo-analysis-monitoring
+/plugin install content-marketing
+```
+
+### Business Operations
+- **Business Analyst** - KPI tracking & financial reporting
+- **HR Compliance Specialist** - HR policies & legal templates
+- **Customer Support Automator** - Support & sales automation
+
+**Skills:**
+- Analytics Patterns
+- KPI Strategies
+- Financial Reporting
+- HR Best Practices
+- Support Automation
+- CRM Integration
+
+```bash
 /plugin install business-analytics
+/plugin install hr-legal-compliance
 /plugin install customer-sales-automation
 ```
 
