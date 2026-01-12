@@ -1,0 +1,12 @@
+{
+  "name": "unit-testing",
+  "description": "Automated unit test generation (Python/JavaScript)",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Testing",
+  "tags": ["testing", "unit-tests", "pytest", "jest"]
+}

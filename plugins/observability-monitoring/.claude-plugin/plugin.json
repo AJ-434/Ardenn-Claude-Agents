@@ -1,0 +1,12 @@
+{
+  "name": "observability-monitoring",
+  "description": "Metrics, logging, tracing, and SLO",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Operations",
+  "tags": ["observability", "monitoring", "metrics"]
+}

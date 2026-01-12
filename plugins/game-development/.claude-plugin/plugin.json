@@ -1,0 +1,12 @@
+{
+  "name": "game-development",
+  "description": "Unity and Minecraft plugin development",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Gaming",
+  "tags": ["game", "unity", "minecraft"]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "data-engineering",
+  "description": "ETL pipelines and data warehouses",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Data",
+  "tags": ["data", "etl", "warehouse"]
+}

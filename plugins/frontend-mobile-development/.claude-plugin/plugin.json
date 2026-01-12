@@ -1,0 +1,12 @@
+{
+  "name": "frontend-mobile-development",
+  "description": "Frontend UI and mobile development",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Development",
+  "tags": ["frontend", "mobile", "react", "ui"]
+}

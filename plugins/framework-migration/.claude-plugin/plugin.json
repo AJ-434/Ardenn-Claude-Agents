@@ -1,0 +1,12 @@
+{
+  "name": "framework-migration",
+  "description": "Framework upgrades and migration planning",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Modernization",
+  "tags": ["migration", "framework", "upgrade"]
+}

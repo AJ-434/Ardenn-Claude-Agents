@@ -1,0 +1,12 @@
+{
+  "name": "systems-programming",
+  "description": "Rust, Go, C, C++ for systems development",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Languages",
+  "tags": ["rust", "go", "c", "cpp", "systems"]
+}

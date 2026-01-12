@@ -1,0 +1,12 @@
+{
+  "name": "accessibility-compliance",
+  "description": "WCAG auditing and inclusive design",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Accessibility",
+  "tags": ["accessibility", "wcag", "a11y"]
+}

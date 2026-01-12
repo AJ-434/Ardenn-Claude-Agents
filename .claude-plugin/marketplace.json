@@ -1,0 +1,526 @@
+{
+  "name": "agents",
+  "owner": {
+    "name": "wshobson",
+    "repository": "https://github.com/wshobson/agents"
+  },
+  "metadata": {
+    "description": "Intelligent automation and multi-agent orchestration for Claude Code",
+    "version": "1.0.0",
+    "documentation": "https://github.com/wshobson/agents/blob/main/plugins.md"
+  },
+  "plugins": [
+    {
+      "name": "debugging-toolkit",
+      "description": "Interactive debugging and DX optimization",
+      "version": "1.0.0",
+      "category": "Development",
+      "tags": ["debugging", "dx", "developer-experience"],
+      "source": "./plugins/debugging-toolkit"
+    },
+    {
+      "name": "backend-development",
+      "description": "Backend API design with GraphQL and TDD",
+      "version": "1.0.0",
+      "category": "Development",
+      "tags": ["backend", "api", "graphql", "tdd"],
+      "source": "./plugins/backend-development"
+    },
+    {
+      "name": "frontend-mobile-development",
+      "description": "Frontend UI and mobile development",
+      "version": "1.0.0",
+      "category": "Development",
+      "tags": ["frontend", "mobile", "react", "ui"],
+      "source": "./plugins/frontend-mobile-development"
+    },
+    {
+      "name": "multi-platform-apps",
+      "description": "Cross-platform app coordination (web/iOS/Android)",
+      "version": "1.0.0",
+      "category": "Development",
+      "tags": ["cross-platform", "mobile", "web"],
+      "source": "./plugins/multi-platform-apps"
+    },
+    {
+      "name": "code-documentation",
+      "description": "Documentation generation and code explanation",
+      "version": "1.0.0",
+      "category": "Documentation",
+      "tags": ["documentation", "docs", "explanation"],
+      "source": "./plugins/code-documentation"
+    },
+    {
+      "name": "documentation-generation",
+      "description": "OpenAPI specs, Mermaid diagrams, tutorials",
+      "version": "1.0.0",
+      "category": "Documentation",
+      "tags": ["openapi", "mermaid", "diagrams", "tutorials"],
+      "source": "./plugins/documentation-generation"
+    },
+    {
+      "name": "c4-architecture",
+      "description": "Comprehensive C4 architecture documentation workflow with bottom-up code analysis, component synthesis, container mapping, and context diagrams",
+      "version": "1.0.0",
+      "category": "Documentation",
+      "tags": ["c4", "architecture", "diagrams"],
+      "source": "./plugins/c4-architecture"
+    },
+    {
+      "name": "git-pr-workflows",
+      "description": "Git automation and PR enhancement",
+      "version": "1.0.0",
+      "category": "Workflows",
+      "tags": ["git", "pr", "workflows", "automation"],
+      "source": "./plugins/git-pr-workflows"
+    },
+    {
+      "name": "full-stack-orchestration",
+      "description": "End-to-end feature orchestration",
+      "version": "1.0.0",
+      "category": "Workflows",
+      "tags": ["full-stack", "orchestration", "workflows"],
+      "source": "./plugins/full-stack-orchestration"
+    },
+    {
+      "name": "tdd-workflows",
+      "description": "Test-driven development methodology",
+      "version": "1.0.0",
+      "category": "Workflows",
+      "tags": ["tdd", "testing", "workflows"],
+      "source": "./plugins/tdd-workflows"
+    },
+    {
+      "name": "unit-testing",
+      "description": "Automated unit test generation (Python/JavaScript)",
+      "version": "1.0.0",
+      "category": "Testing",
+      "tags": ["testing", "unit-tests", "pytest", "jest"],
+      "source": "./plugins/unit-testing"
+    },
+    {
+      "name": "code-review-ai",
+      "description": "AI-powered architectural review",
+      "version": "1.0.0",
+      "category": "Quality",
+      "tags": ["code-review", "quality", "ai"],
+      "source": "./plugins/code-review-ai"
+    },
+    {
+      "name": "comprehensive-review",
+      "description": "Multi-perspective code analysis",
+      "version": "1.0.0",
+      "category": "Quality",
+      "tags": ["code-review", "quality", "analysis"],
+      "source": "./plugins/comprehensive-review"
+    },
+    {
+      "name": "performance-testing-review",
+      "description": "Performance analysis and test coverage review",
+      "version": "1.0.0",
+      "category": "Quality",
+      "tags": ["performance", "testing", "review"],
+      "source": "./plugins/performance-testing-review"
+    },
+    {
+      "name": "code-refactoring",
+      "description": "Code cleanup and technical debt management",
+      "version": "1.0.0",
+      "category": "Utilities",
+      "tags": ["refactoring", "cleanup", "technical-debt"],
+      "source": "./plugins/code-refactoring"
+    },
+    {
+      "name": "dependency-management",
+      "description": "Dependency auditing and version management",
+      "version": "1.0.0",
+      "category": "Utilities",
+      "tags": ["dependencies", "versions", "security"],
+      "source": "./plugins/dependency-management"
+    },
+    {
+      "name": "error-debugging",
+      "description": "Error analysis and trace debugging",
+      "version": "1.0.0",
+      "category": "Utilities",
+      "tags": ["debugging", "errors", "troubleshooting"],
+      "source": "./plugins/error-debugging"
+    },
+    {
+      "name": "team-collaboration",
+      "description": "Team workflows and standup automation",
+      "version": "1.0.0",
+      "category": "Utilities",
+      "tags": ["team", "collaboration", "standup"],
+      "source": "./plugins/team-collaboration"
+    },
+    {
+      "name": "llm-application-dev",
+      "description": "LLM apps and prompt engineering",
+      "version": "1.0.0",
+      "category": "AI & ML",
+      "tags": ["llm", "ai", "prompt-engineering"],
+      "source": "./plugins/llm-application-dev"
+    },
+    {
+      "name": "agent-orchestration",
+      "description": "Multi-agent system optimization",
+      "version": "1.0.0",
+      "category": "AI & ML",
+      "tags": ["agents", "orchestration", "ai"],
+      "source": "./plugins/agent-orchestration"
+    },
+    {
+      "name": "context-management",
+      "description": "Context persistence and restoration",
+      "version": "1.0.0",
+      "category": "AI & ML",
+      "tags": ["context", "persistence", "ai"],
+      "source": "./plugins/context-management"
+    },
+    {
+      "name": "machine-learning-ops",
+      "description": "ML training pipelines and MLOps",
+      "version": "1.0.0",
+      "category": "AI & ML",
+      "tags": ["ml", "mlops", "training", "pipelines"],
+      "source": "./plugins/machine-learning-ops"
+    },
+    {
+      "name": "data-engineering",
+      "description": "ETL pipelines and data warehouses",
+      "version": "1.0.0",
+      "category": "Data",
+      "tags": ["data", "etl", "warehouse"],
+      "source": "./plugins/data-engineering"
+    },
+    {
+      "name": "data-validation-suite",
+      "description": "Schema validation and data quality",
+      "version": "1.0.0",
+      "category": "Data",
+      "tags": ["data", "validation", "quality"],
+      "source": "./plugins/data-validation-suite"
+    },
+    {
+      "name": "database-design",
+      "description": "Database architecture and schema design",
+      "version": "1.0.0",
+      "category": "Database",
+      "tags": ["database", "schema", "architecture"],
+      "source": "./plugins/database-design"
+    },
+    {
+      "name": "database-migrations",
+      "description": "Database migration automation",
+      "version": "1.0.0",
+      "category": "Database",
+      "tags": ["database", "migrations", "automation"],
+      "source": "./plugins/database-migrations"
+    },
+    {
+      "name": "incident-response",
+      "description": "Production incident management",
+      "version": "1.0.0",
+      "category": "Operations",
+      "tags": ["incident", "production", "operations"],
+      "source": "./plugins/incident-response"
+    },
+    {
+      "name": "error-diagnostics",
+      "description": "Error tracing and root cause analysis",
+      "version": "1.0.0",
+      "category": "Operations",
+      "tags": ["diagnostics", "errors", "root-cause"],
+      "source": "./plugins/error-diagnostics"
+    },
+    {
+      "name": "distributed-debugging",
+      "description": "Distributed system tracing",
+      "version": "1.0.0",
+      "category": "Operations",
+      "tags": ["distributed", "debugging", "tracing"],
+      "source": "./plugins/distributed-debugging"
+    },
+    {
+      "name": "observability-monitoring",
+      "description": "Metrics, logging, tracing, and SLO",
+      "version": "1.0.0",
+      "category": "Operations",
+      "tags": ["observability", "monitoring", "metrics"],
+      "source": "./plugins/observability-monitoring"
+    },
+    {
+      "name": "application-performance",
+      "description": "Application profiling and optimization",
+      "version": "1.0.0",
+      "category": "Performance",
+      "tags": ["performance", "profiling", "optimization"],
+      "source": "./plugins/application-performance"
+    },
+    {
+      "name": "database-cloud-optimization",
+      "description": "Database query and cloud cost optimization",
+      "version": "1.0.0",
+      "category": "Performance",
+      "tags": ["database", "cloud", "optimization", "cost"],
+      "source": "./plugins/database-cloud-optimization"
+    },
+    {
+      "name": "deployment-strategies",
+      "description": "Deployment patterns and rollback automation",
+      "version": "1.0.0",
+      "category": "Infrastructure",
+      "tags": ["deployment", "strategies", "rollback"],
+      "source": "./plugins/deployment-strategies"
+    },
+    {
+      "name": "deployment-validation",
+      "description": "Pre-deployment checks and validation",
+      "version": "1.0.0",
+      "category": "Infrastructure",
+      "tags": ["deployment", "validation", "checks"],
+      "source": "./plugins/deployment-validation"
+    },
+    {
+      "name": "kubernetes-operations",
+      "description": "K8s manifests and GitOps workflows",
+      "version": "1.0.0",
+      "category": "Infrastructure",
+      "tags": ["kubernetes", "k8s", "gitops"],
+      "source": "./plugins/kubernetes-operations"
+    },
+    {
+      "name": "cloud-infrastructure",
+      "description": "AWS/Azure/GCP cloud architecture",
+      "version": "1.0.0",
+      "category": "Infrastructure",
+      "tags": ["cloud", "aws", "azure", "gcp"],
+      "source": "./plugins/cloud-infrastructure"
+    },
+    {
+      "name": "cicd-automation",
+      "description": "CI/CD pipeline configuration",
+      "version": "1.0.0",
+      "category": "Infrastructure",
+      "tags": ["cicd", "pipeline", "automation"],
+      "source": "./plugins/cicd-automation"
+    },
+    {
+      "name": "security-scanning",
+      "description": "SAST analysis and vulnerability scanning",
+      "version": "1.0.0",
+      "category": "Security",
+      "tags": ["security", "sast", "vulnerability"],
+      "source": "./plugins/security-scanning"
+    },
+    {
+      "name": "security-compliance",
+      "description": "SOC2/HIPAA/GDPR compliance",
+      "version": "1.0.0",
+      "category": "Security",
+      "tags": ["security", "compliance", "soc2", "hipaa", "gdpr"],
+      "source": "./plugins/security-compliance"
+    },
+    {
+      "name": "backend-api-security",
+      "description": "API security and authentication",
+      "version": "1.0.0",
+      "category": "Security",
+      "tags": ["security", "api", "authentication"],
+      "source": "./plugins/backend-api-security"
+    },
+    {
+      "name": "frontend-mobile-security",
+      "description": "XSS/CSRF prevention and mobile security",
+      "version": "1.0.0",
+      "category": "Security",
+      "tags": ["security", "frontend", "mobile", "xss", "csrf"],
+      "source": "./plugins/frontend-mobile-security"
+    },
+    {
+      "name": "framework-migration",
+      "description": "Framework upgrades and migration planning",
+      "version": "1.0.0",
+      "category": "Modernization",
+      "tags": ["migration", "framework", "upgrade"],
+      "source": "./plugins/framework-migration"
+    },
+    {
+      "name": "codebase-cleanup",
+      "description": "Technical debt reduction and cleanup",
+      "version": "1.0.0",
+      "category": "Modernization",
+      "tags": ["cleanup", "technical-debt", "refactoring"],
+      "source": "./plugins/codebase-cleanup"
+    },
+    {
+      "name": "api-scaffolding",
+      "description": "REST/GraphQL API generation",
+      "version": "1.0.0",
+      "category": "API",
+      "tags": ["api", "rest", "graphql", "scaffolding"],
+      "source": "./plugins/api-scaffolding"
+    },
+    {
+      "name": "api-testing-observability",
+      "description": "API testing and monitoring",
+      "version": "1.0.0",
+      "category": "API",
+      "tags": ["api", "testing", "observability"],
+      "source": "./plugins/api-testing-observability"
+    },
+    {
+      "name": "seo-content-creation",
+      "description": "SEO content writing and planning",
+      "version": "1.0.0",
+      "category": "Marketing",
+      "tags": ["seo", "content", "marketing"],
+      "source": "./plugins/seo-content-creation"
+    },
+    {
+      "name": "seo-technical-optimization",
+      "description": "Meta tags, keywords, and schema markup",
+      "version": "1.0.0",
+      "category": "Marketing",
+      "tags": ["seo", "optimization", "technical"],
+      "source": "./plugins/seo-technical-optimization"
+    },
+    {
+      "name": "seo-analysis-monitoring",
+      "description": "Content analysis and authority building",
+      "version": "1.0.0",
+      "category": "Marketing",
+      "tags": ["seo", "analysis", "monitoring"],
+      "source": "./plugins/seo-analysis-monitoring"
+    },
+    {
+      "name": "content-marketing",
+      "description": "Content strategy and web research",
+      "version": "1.0.0",
+      "category": "Marketing",
+      "tags": ["content", "marketing", "strategy"],
+      "source": "./plugins/content-marketing"
+    },
+    {
+      "name": "business-analytics",
+      "description": "KPI tracking and financial reporting",
+      "version": "1.0.0",
+      "category": "Business",
+      "tags": ["analytics", "kpi", "reporting"],
+      "source": "./plugins/business-analytics"
+    },
+    {
+      "name": "hr-legal-compliance",
+      "description": "HR policies and legal templates",
+      "version": "1.0.0",
+      "category": "Business",
+      "tags": ["hr", "legal", "compliance"],
+      "source": "./plugins/hr-legal-compliance"
+    },
+    {
+      "name": "customer-sales-automation",
+      "description": "Support and sales automation",
+      "version": "1.0.0",
+      "category": "Business",
+      "tags": ["customer", "sales", "automation"],
+      "source": "./plugins/customer-sales-automation"
+    },
+    {
+      "name": "python-development",
+      "description": "Python 3.12+ with Django/FastAPI",
+      "version": "1.0.0",
+      "category": "Languages",
+      "tags": ["python", "django", "fastapi"],
+      "source": "./plugins/python-development"
+    },
+    {
+      "name": "javascript-typescript",
+      "description": "JavaScript/TypeScript with Node.js",
+      "version": "1.0.0",
+      "category": "Languages",
+      "tags": ["javascript", "typescript", "nodejs"],
+      "source": "./plugins/javascript-typescript"
+    },
+    {
+      "name": "systems-programming",
+      "description": "Rust, Go, C, C++ for systems development",
+      "version": "1.0.0",
+      "category": "Languages",
+      "tags": ["rust", "go", "c", "cpp", "systems"],
+      "source": "./plugins/systems-programming"
+    },
+    {
+      "name": "jvm-languages",
+      "description": "Java, Scala, C# with enterprise patterns",
+      "version": "1.0.0",
+      "category": "Languages",
+      "tags": ["java", "scala", "csharp", "jvm"],
+      "source": "./plugins/jvm-languages"
+    },
+    {
+      "name": "web-scripting",
+      "description": "PHP and Ruby for web applications",
+      "version": "1.0.0",
+      "category": "Languages",
+      "tags": ["php", "ruby", "web"],
+      "source": "./plugins/web-scripting"
+    },
+    {
+      "name": "functional-programming",
+      "description": "Elixir with OTP and Phoenix",
+      "version": "1.0.0",
+      "category": "Languages",
+      "tags": ["elixir", "otp", "phoenix", "functional"],
+      "source": "./plugins/functional-programming"
+    },
+    {
+      "name": "arm-cortex-microcontrollers",
+      "description": "ARM Cortex-M firmware and drivers",
+      "version": "1.0.0",
+      "category": "Languages",
+      "tags": ["arm", "cortex", "embedded", "firmware"],
+      "source": "./plugins/arm-cortex-microcontrollers"
+    },
+    {
+      "name": "blockchain-web3",
+      "description": "Smart contracts and DeFi protocols",
+      "version": "1.0.0",
+      "category": "Blockchain",
+      "tags": ["blockchain", "web3", "smart-contracts", "defi"],
+      "source": "./plugins/blockchain-web3"
+    },
+    {
+      "name": "quantitative-trading",
+      "description": "Algorithmic trading and risk management",
+      "version": "1.0.0",
+      "category": "Finance",
+      "tags": ["trading", "quantitative", "risk-management"],
+      "source": "./plugins/quantitative-trading"
+    },
+    {
+      "name": "payment-processing",
+      "description": "Stripe/PayPal integration and billing",
+      "version": "1.0.0",
+      "category": "Payments",
+      "tags": ["payments", "stripe", "paypal", "billing"],
+      "source": "./plugins/payment-processing"
+    },
+    {
+      "name": "game-development",
+      "description": "Unity and Minecraft plugin development",
+      "version": "1.0.0",
+      "category": "Gaming",
+      "tags": ["game", "unity", "minecraft"],
+      "source": "./plugins/game-development"
+    },
+    {
+      "name": "accessibility-compliance",
+      "description": "WCAG auditing and inclusive design",
+      "version": "1.0.0",
+      "category": "Accessibility",
+      "tags": ["accessibility", "wcag", "a11y"],
+      "source": "./plugins/accessibility-compliance"
+    }
+  ]
+}

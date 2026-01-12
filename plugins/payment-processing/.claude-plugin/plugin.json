@@ -1,0 +1,12 @@
+{
+  "name": "payment-processing",
+  "description": "Stripe/PayPal integration and billing",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Payments",
+  "tags": ["payments", "stripe", "paypal", "billing"]
+}

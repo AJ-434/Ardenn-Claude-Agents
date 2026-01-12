@@ -1,0 +1,12 @@
+{
+  "name": "hr-legal-compliance",
+  "description": "HR policies and legal templates",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Business",
+  "tags": ["hr", "legal", "compliance"]
+}

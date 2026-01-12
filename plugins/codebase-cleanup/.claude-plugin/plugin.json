@@ -1,0 +1,12 @@
+{
+  "name": "codebase-cleanup",
+  "description": "Technical debt reduction and cleanup",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Modernization",
+  "tags": ["cleanup", "technical-debt", "refactoring"]
+}

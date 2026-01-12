@@ -1,0 +1,12 @@
+{
+  "name": "incident-response",
+  "description": "Production incident management",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Operations",
+  "tags": ["incident", "production", "operations"]
+}

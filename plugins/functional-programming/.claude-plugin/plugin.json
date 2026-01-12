@@ -1,0 +1,12 @@
+{
+  "name": "functional-programming",
+  "description": "Elixir with OTP and Phoenix",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Languages",
+  "tags": ["elixir", "otp", "phoenix", "functional"]
+}

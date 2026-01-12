@@ -1,0 +1,12 @@
+{
+  "name": "backend-development",
+  "description": "Backend API design with GraphQL and TDD",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Development",
+  "tags": ["backend", "api", "graphql", "tdd"]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "database-design",
+  "description": "Database architecture and schema design",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Database",
+  "tags": ["database", "schema", "architecture"]
+}

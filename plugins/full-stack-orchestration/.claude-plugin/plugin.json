@@ -1,0 +1,12 @@
+{
+  "name": "full-stack-orchestration",
+  "description": "End-to-end feature orchestration",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Workflows",
+  "tags": ["full-stack", "orchestration", "workflows"]
+}

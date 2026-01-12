@@ -1,0 +1,12 @@
+{
+  "name": "team-collaboration",
+  "description": "Team workflows and standup automation",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Utilities",
+  "tags": ["team", "collaboration", "standup"]
+}

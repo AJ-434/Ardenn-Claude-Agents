@@ -1,0 +1,12 @@
+{
+  "name": "code-documentation",
+  "description": "Documentation generation and code explanation",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Documentation",
+  "tags": ["documentation", "docs", "explanation"]
+}

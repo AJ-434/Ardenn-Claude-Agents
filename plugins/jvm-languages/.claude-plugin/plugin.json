@@ -1,0 +1,12 @@
+{
+  "name": "jvm-languages",
+  "description": "Java, Scala, C# with enterprise patterns",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Languages",
+  "tags": ["java", "scala", "csharp", "jvm"]
+}

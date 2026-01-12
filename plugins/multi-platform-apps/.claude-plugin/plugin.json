@@ -1,0 +1,12 @@
+{
+  "name": "multi-platform-apps",
+  "description": "Cross-platform app coordination (web/iOS/Android)",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Development",
+  "tags": ["cross-platform", "mobile", "web"]
+}

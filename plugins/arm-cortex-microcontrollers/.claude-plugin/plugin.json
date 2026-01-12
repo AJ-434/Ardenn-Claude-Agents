@@ -1,0 +1,12 @@
+{
+  "name": "arm-cortex-microcontrollers",
+  "description": "ARM Cortex-M firmware and drivers",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Languages",
+  "tags": ["arm", "cortex", "embedded", "firmware"]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "business-analytics",
+  "description": "KPI tracking and financial reporting",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Business",
+  "tags": ["analytics", "kpi", "reporting"]
+}

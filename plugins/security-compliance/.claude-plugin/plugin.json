@@ -1,0 +1,12 @@
+{
+  "name": "security-compliance",
+  "description": "SOC2/HIPAA/GDPR compliance",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Security",
+  "tags": ["security", "compliance", "soc2", "hipaa", "gdpr"]
+}

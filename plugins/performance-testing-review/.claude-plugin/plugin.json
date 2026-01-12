@@ -1,0 +1,12 @@
+{
+  "name": "performance-testing-review",
+  "description": "Performance analysis and test coverage review",
+  "version": "1.0.0",
+  "author": {
+    "name": "wshobson",
+    "url": "https://github.com/wshobson/agents"
+  },
+  "license": "MIT",
+  "category": "Quality",
+  "tags": ["performance", "testing", "review"]
+}
